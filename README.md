@@ -15,7 +15,7 @@ settings, application dependency and KSP `neton.modules` registry, plus
 `effect.conf`, the private storage source and sticker inspector configuration.
 Those host edits belong to the parent task. Internal Neton module ID is `effect`
 (hyphens are not valid in generated Kotlin packages); repository/project name is
-`privchat-application-module-effect` / `module-effect`.
+`neton-application-module-effect` / `module-effect`.
 
 The generated `EffectModuleManifest` automatically invokes
 `init.EffectRuntimeBootstrap.initialize(ctx)` before routes. Its embedded
