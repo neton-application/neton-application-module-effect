@@ -1,0 +1,30 @@
+{
+  "release": "1.0.0-beta",
+  "module": "effect",
+  "fresh_install_only": true,
+  "dependencies": [
+    "system",
+    "infra",
+    "account"
+  ],
+  "baseline": [
+    {
+      "file": "V001__schema.sql",
+      "sha256": "92cc26bb4e39be9dfe9026eed95530c1f84e7552f357368bbb3cd3f9821acd95"
+    },
+    {
+      "file": "V002__data.sql",
+      "sha256": "cf580a0370da25e4a520387ee5b0a7007a7b95568e9505c5bae4d246d0680f30"
+    }
+  ],
+  "superseded": [
+    {
+      "name": "V001__effect.sql",
+      "sha256": "18e6e66b2bc32b30c151e18ce81784f12f373f4eaa8fdc25534633c89dd3b817"
+    },
+    {
+      "name": "V002__rule_versions.sql",
+      "sha256": "d36057538ab10b05100baad65a10e3689709a3cc0ee9bc786c7c2a8cc04fd899"
+    }
+  ]
+}
